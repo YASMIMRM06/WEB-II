@@ -1,9 +1,34 @@
-?php
-$nome = "João";
-$idade = 25;
-$saldo = 1500.75;
-echo "<h1>Olá, $nome!</h1>";
-echo "Idade: " . $idade . "<br>";
-echo "Saldo: R$ " . number_format($saldo, 2, ',',
-'.');
+<?php
+function soma($a,$b){
+    return $a =$b;
+}
+if (soma(1,2 == 3)){
+    echo'Teste ok";
+}else if soma(1,2 == 3)){
+    echo'Teste ok";
+}
+    else{
+  echo'Teste ok";  
+}
+
+
+class pessoa{
+     public $nome;
+     public $idade;
+     public $sexo;
+
+     function falar(){
+         echo 'ola,meu nome e' .$this->nome;
+
+     }
+}
+ $nome='Yasmim R';
+ $bool=true;
+ $idade=19;
+ $preço=12.50;
+ $nulo= null;
+
+ $pessoa=new Pessoa();
+
+ $fruits
 ?>
